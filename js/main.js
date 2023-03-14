@@ -18,7 +18,7 @@ var nombre_festejado = '31 de Marzo del 2023';
 // };
 var salon ={
     nombre: 'Mayala Salón',
-    direccion: 'Vicente Lombardo Toledano, 91809 Veracruz, Ver.',
+    direccion: 'Camino Real a la Antigua entre Jorge Crocha García y Av. Río Medio Col. Vicente Lombardo Toledano',
     fecha:'31 de Marzo del 2023 a las 17:00',
     url_image: '/img/salon_mayala.webp',
     url_mapa:'https://goo.gl/maps/6hpCtJsB3zF34Mz86'
