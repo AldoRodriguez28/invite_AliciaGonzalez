@@ -360,7 +360,7 @@ h2 {
 .banner_20 {
   font-family: "Great Vibes", cursive;
   display: grid;
-  background-image: url("/img/Jarocho.webp"); /* Set a specific height */
+  background-image: url("/img/alicia_4.webp"); /* Set a specific height */
   width: 100vw;
   height: 100vh;
   /* Position and center the image to scale nicely on all screens */
@@ -669,4 +669,21 @@ h2 {
   margin-left: 8px;
   margin-right: 8px;
   margin-top: 2%;
+}
+
+.banner_3{
+  font-family: "Fredericka the Great", cursive;
+  display: grid;
+  align-items: center;
+  background-image: url("/img/alicia_4.webp"); /* Set a specific height */
+  width: 100vw;
+  height: 50vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  color: #e0e0e0;
 }
