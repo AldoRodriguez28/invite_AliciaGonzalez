@@ -17,7 +17,7 @@ var nombre_festejado = '31 de Marzo del 2023';
 //     url_mapa: ''
 // };
 var salon ={
-    nombre: 'Mayala Salon',
+    nombre: 'Mayala Salón',
     direccion: 'Vicente Lombardo Toledano, 91809 Veracruz, Ver.',
     fecha:'31 de Marzo del 2023 a las 17:00',
     url_image: '/img/salon_mayala.webp',
