@@ -113,4 +113,4 @@ function sweetalert(){
 }
 
 cargaDatosLugares();
-cuenta_bancaria();
+// cuenta_bancaria();
