@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.4.8"
+  }
+}

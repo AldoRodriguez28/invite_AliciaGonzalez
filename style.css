@@ -1,0 +1,672 @@
+@media only screen and (max-width: 990px) {
+  h1 {
+    font-size: 52px !important;
+    font-weight: 400;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-size: 24px !important;
+    font-weight: 400;
+    font-family: "Josefin Slab", serif;
+  }
+
+  .portada {
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  }
+  .header {
+    font-family: "Fredericka the Great", cursive;
+    font-weight: normal;
+    font-size: 55px;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-self: center;
+  }
+  .datos_del_invitado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("/img/seccion_invitado.png");
+    /* Set a specific height */
+    width: 100vw;
+    height: 100vh;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .datos_del_invitado h1{
+    font-family: "Fredericka the Great", cursive;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 48px;
+  }
+  .invitado_container {
+    font-family: "Fredericka the Great", cursive;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-self: center;
+  }
+  /* .invitado_container :first-child {
+    font-size: 36px !important;
+  } */
+  .invitado_container :nth-child(1) {
+    max-width: 100% !important;
+    font-family: "Poppins", sans-serif;
+    color: #707070;
+    font-weight: 200;
+    font-size: 21px;
+    text-align: center;
+  }
+  .invitado_container :nth-child(2) {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 21px!important;
+    text-align: center;
+    color: #707070;
+
+  }
+  .invitado_container :nth-child(3) {
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .donde_y_cuando {
+    height: 100% !important;
+  }
+  .card-container {
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .card-donde {
+    max-width: 100% !important;
+  }
+  .card-cuando {
+    max-width: 100% !important;
+  }
+  .dress_code {
+    height: 100% !important;
+  }
+  .avatar img {
+    max-width: 160px;
+    height: 160px;
+  }
+  .padrinos_y_mas {
+    height: 100% !important;
+  }
+  .padrinos_y_mas_container {
+    display: flex !important;
+    flex-direction: column;
+  }
+  #cuenta {
+    display: flex;
+    gap: 20px !important;
+    font-size: 32px !important;
+  }
+  #cuenta div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .simply-word {
+    font-size: 20px !important;
+  }
+  .mesa_de_regalos {
+    height: 100% !important;
+  }
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 100px;
+  font-weight: 400;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Josefin Slab", serif;
+}
+.button {
+  background-color: #2f80ed;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-align {
+  display: flex;
+  max-width: 60%;
+  gap: 16px;
+  height: 10%;
+  align-items: center;
+  font-size: -1% !important;
+  background-color: #128c7e !important;
+}
+.button-align a {
+  place-self: center;
+}
+/* The hero image */
+.hero-image {
+  display: grid;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/img/alicia_1.webp");
+  /* Set a specific height */
+  width: 100vw;
+  height: 100vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.portada {
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+}
+.portada p {
+  font-size: 32px;
+  margin: 0;
+}
+#nombre_festejado {
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  font-size: 32px;
+}
+.header {
+  position: absolute;
+  bottom: 64px;
+  margin: 0;
+  font-family: "Fredericka the Great", cursive;
+  font-weight: normal;
+  font-size: 55px;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-self: center;
+}
+.header:first-child {
+  margin: 0;
+}
+.header:nth-child(2) {
+  margin: 28px;
+}
+.datos_del_invitado .logo img{
+  max-width: 100%;
+}
+.datos_del_invitado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-self: center;
+  background-image: url("/img/backgroungLogo.png");
+  /* Set a specific height */
+  width: 100vw;
+  height: 100vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.seccion_saveTheDate div :nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+  font-weight: 200;
+  font-size: 21px;
+  text-align: center;
+  margin: 0;
+
+}
+.invitado_container {
+  background-image: url("/img/backgroungLogo.png");
+  font-family: "Fredericka the Great", cursive;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-self: center;
+}
+.invitado_container :nth-child(1) {
+  max-width: 64%;
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+  font-weight: 200;
+  font-size: 21px;
+  text-align: center;
+  margin: 0;
+}
+.invitado_container :nth-child(2) {
+  font-size: 62px;
+  text-align: center;
+  margin: 0;
+}
+.invitado_container :nth-child(3) {
+  font-size: 30px;
+  text-align: center;
+}
+.cuenta_regresiva {
+  color: azure;
+  font-family: "Fredericka the Great", cursive;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+}
+.donde_y_cuando {
+  display: grid;
+  background-image: url("/img/backgroungLogo.png");
+  /* Set a specific height */
+  width: 100vw;
+  height: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.donde_y_cuando h1 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 45px;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  gap: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+  
+}
+.card-container h2 {
+  font-family: 'Poppins', sans-serif;
+}
+.card-donde {
+  max-width: 42%;
+  background-color: #e0e0e0;
+  border-radius: 16px;
+  margin: 0px 0 0px;
+  padding: 10px 30px 35px 30px;
+  margin-bottom: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+.images {
+  height: auto;
+  max-width: 100%;
+  border-radius: 16px;
+}
+.card-cuando {
+  min-width: 29%;
+  max-width: 42%;
+  border-radius: 16px;
+  background-color: #e0e0e0;
+  margin: 0px 0 0px;
+  padding: 10px 30px 35px 30px;
+  margin-bottom: 16px;
+  font-family: 'Poppins', sans-serif;   
+}
+.dress_code {
+  font-family: "Fredericka the Great", cursive;
+  display: grid;
+  background-image: url("/img/backgroungLogo.png");
+  background-color: #ededee;
+  /* Set a specific height */
+  width: 100vw;
+  height: 100vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+}
+.dress_code_container {
+  text-align: center;
+}
+.dress_code_container h1 {
+  font-size: 56px;
+}
+.hombre_suite_code {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.mujer_dress_code {
+  font-family: "Poppins", sans-serif;
+}
+.img_dress_code {
+  width: 224px;
+}
+.banner_20 {
+  font-family: "Great Vibes", cursive;
+  display: grid;
+  background-image: url("/img/Jarocho.webp"); /* Set a specific height */
+  width: 100vw;
+  height: 100vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  color: #e0e0e0;
+}
+.banner_20_container {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  font-size: 45px;
+  place-self: center;
+}
+.banner_20_container p:nth-child(1) {
+  text-align: center;
+}
+.banner_20_container p:nth-child(2) {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.foto_novios1::before{
+  background-color: rgba(0,0,0,0.6);
+}
+.hospedaje{
+  font-family: "Great Vibes", cursive;
+  display: grid;
+  background-image: url("/img/alicia_2.webp"); /* Set a specific height */
+  width: 100vw;
+  height: 100vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  color: #e0e0e0;
+}
+.foto_novios1{
+  font-family: "Fredericka the Great", cursive;
+  display: grid;
+  background-image: url("/img/photo2.png"); /* Set a specific height */
+  width: 100vw;
+  height: 100vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  color: #e0e0e0;
+}
+.fotos {
+  font-family: "Fredericka the Great", cursive;
+  display: grid;
+  background-image: url("/img/zapatillas_ballet.jpg"); /* Set a specific height */
+  width: 100vw;
+  height: 100vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  color: #e0e0e0;
+}
+.seccion_saveTheDatep:nth-child(1){
+  max-width: 90%;
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+.padrinos_y_mas {
+  font-family: "Fredericka the Great", cursive;
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  justify-items: center;
+}
+.padrinos_y_mas h1 {
+  margin-bottom: 0;
+}
+.padrinos_y_mas_container {
+  display: grid;
+  gap: 20%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  justify-content: center;
+}
+.avatar {
+  border-radius: 50%;
+}
+.avatar img {
+  border: 5px solid #ffffff;
+  box-shadow: 0 4px 6px 0 #ccc;
+  max-width: 250px;
+  border-radius: 50%;
+  height: 250px;
+}
+.persona p {
+  font-family: "Great Vibes", cursive;
+  font-size: 68px;
+  margin-bottom: 0;
+}
+.persona span {
+  color: gray;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 16px;
+}
+.mesa_de_regalos {
+  font-family: "Fredericka the Great", cursive;
+  display: grid;
+  background-image: url("/img/backgroungLogo.png");
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Set a specific height */
+  width: 100vw;
+  height: 100vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+.mesa {
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 4px 6px 0 #ccc;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 10px;
+  z-index: 2;
+  background-color: #ffffff;
+}
+.mesa:hover {
+  border: 1px solid deeppink;
+}
+.mesa img {
+  max-width: 60px;
+  height: auto;
+}
+.mesa p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.mesa span {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+#datos_bancarios {
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  align-items: flex-start;
+  margin-left: 12%;
+  animation-duration: 2s;
+  animation-name: slidein;
+  z-index: 1;
+  color: red;
+}
+#datos_bancarios img{
+  width: 90%;
+}
+@keyframes slidein {
+  from {
+    margin-top: -10%;
+  }
+
+  to {
+    margin-top: 5%;
+  }
+}
+#cuenta {
+  display: flex;
+  gap: 45px;
+  font-size: 80px;
+}
+#cuenta div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.simply-word {
+  font-size: 50px;
+}
+.banner_2 {
+  font-family: "Fredericka the Great", cursive;
+  display: grid;
+  background-image: url("/img/amy-shamblen-pJ_DCj9KswI-unsplash.jpg"); /* Set a specific height */
+  width: 100vw;
+  height: 50vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  color: #e0e0e0;
+}
+.hashtag {
+  font-family: "Fredericka the Great", cursive;
+  display: grid;
+  align-items: center;
+  background-image: url("/img/instagram.png"); /* Set a specific height */
+  width: 100vw;
+  height: 50vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  color: #e0e0e0;
+}
+#hashtag {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+}
+#hashtag:hover {
+  cursor: pointer;
+}
+.hashtag_container p {
+  font-size: 12px !important;
+  color: black;
+  text-align: center;
+}
+.confirma_asistencia {
+  font-family: "Fredericka the Great", cursive;
+  display: grid;
+  background-color: rgb(51, 51, 51);
+  width: 100vw;
+  height: 100vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  color: #e0e0e0;
+}
+.confirma_asistencia p {
+  font-family: "Montserrat", sans-serif;
+}
+.confirma_asistencia_container img {
+  max-width: 60px;
+  height: auto;
+  position: relative;
+}
+.confirma_asistencia_container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.swal-modal .swal-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+.buttonMusic{
+  background-color: rgb(238,152,181);
+  padding: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  position: fixed;
+  top: 21%;
+  right: 0;
+  cursor: pointer;
+}
+.imageMMusic{
+  width: 50%;
+  height: auto;
+}
+#no_ninos{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 16px!important;
+  color: #707070;
+  margin: 0;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 2%;
+}
